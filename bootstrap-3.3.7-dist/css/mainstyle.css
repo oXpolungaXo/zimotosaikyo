@@ -6,26 +6,6 @@ a:hover {
 /*header*/
 
 
-/*------------------original-----------------------*/
-/*帯作る*/
-#obi{
-	
-
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 70px;
-	background-color:#444;
-
-}
-
-/*インフォバースタイル*/
-#navbarposition{
-	padding-left:100px;
-}
-
-
-
 
 header {
 	font-family: 'Montserrat', sans-serif;
@@ -87,10 +67,10 @@ header {
 	padding-top: 36px;
 	height: 784px;
 }
-/* main content of the site */
+/*メインコンテンツの配置*/
 #content .mainContent {
 	float: left;
-	width: 70%;
+	width: 80%;
 	text-align: center;
 	padding-left: 4%;
 }
@@ -114,8 +94,8 @@ header {
 }
 /* Whole page content */
 #mainWrapper {
-	width: 80%;
-	padding-left: 10%;
+	width: 95%;
+	padding-left: 5%;
 }
 /*menu elements */
 .menu ul li {
