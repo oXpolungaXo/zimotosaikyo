@@ -369,7 +369,7 @@ footer .footerlinks p {
 /*media query for small screen devices */
 @media screen and (max-width:480px) {
 /*Container for links in header */
-#mainWrapper header #headerLinks {
+#mainWrapper header #buyButton {
 	width: 100%;
 	text-align: center;
 	background-color: rgba(190,190,190,1.00);
