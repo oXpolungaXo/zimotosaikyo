@@ -15,11 +15,13 @@
 
 /*メインコンテンツの枠線*/
 #content .mainContent .productRow {
-	overflow: auto;
+	/* [disabled]overflow: hidden; */
 	color: rgba(146,146,146,1.00);
 	border-top: 1px dashed #8c8b8b;
 	border-bottom: 1px dashed #fff;
-	width:100%;
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: hidden;
 }
 
 .rolesize{
@@ -29,8 +31,51 @@
 	padding-top:10px;
 }
 
-.samunepadding{
-	margin-top:20px;
-	margin-bottom:100px;
+
+
+.productInfo {
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	width: 288px;
+	height: 162px;	
+	
 	
 }
+
+/*16:9の比率で表示*/
+.embed-responsive{
+	width:288px;
+	height:162px;
+	}
+	
+	.productRow{
+	float:left;
+	margin-left:15px;
+	white-space: nowrap;
+	overflow-x: hidden;
+		
+	}
+	
+	/*整列整理*/
+	.lineup{
+		float:left;
+		
+	}
+/*3位以降の雑魚は小さく*/
+.lineupthird{
+ zoom:50%;
+ 
+ }
+ 
+ .bottunsage{
+	margin-top: 184px;
+ }
+ 
+ .vssize{
+ zoom:30%;
+ margin-top:400px;
+ }
+ 

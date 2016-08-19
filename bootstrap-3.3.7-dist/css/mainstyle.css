@@ -51,9 +51,13 @@ header {
 /* Main content of the site */
 #content {
 	clear: both;
-	overflow: auto;
 	padding-top: 29px;
-}
+	white-space: nowrap;
+	overflow-x: hidden;
+	
+
+
+	}
 /* Sidebar */
 #content .sidebar {
 	font-family: 'Montserrat', sans-serif;
@@ -72,7 +76,12 @@ header {
 	float: left;
 	width: 80%;
 	text-align: center;
-	padding-left: 4%;
+	/* [disabled]padding-left: 5%; */
+	padding-right: 0px;
+	white-space: nowrap;
+	overflow-x: hidden;
+	
+
 }
 /*menubar's properties for menus in sidebar */
 #content .sidebar #menubar {
@@ -91,11 +100,16 @@ header {
 	font-size: 14px;
 	;
 	margin-bottom: 21px;
+	
 }
 /* Whole page content */
 #mainWrapper {
 	width: 95%;
 	padding-left: 5%;
+	white-space: nowrap;
+	overflow-x: hidden;
+	
+
 }
 /*menu elements */
 .menu ul li {
@@ -104,20 +118,23 @@ header {
 	position: relative;
 	left: -35px;
 	padding-top: 12px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 /* Product rows for catalog */
 #content .mainContent .productRow {
-	overflow: auto;
+		white-space: nowrap;
+overflow-x: hidden;
 	color: rgba(146,146,146,1.00);
 }
 /* Each product Information in the catalog */
 .mainContent .productRow .productInfo {
 	float: left;
-	padding-left: 5%;
+	padding-left: 0%;
 	padding-right: 5%;
-	max-width:200px;
-   height: auto;
-	
+	width:288px;
+	height:162px;
+	overflow: hidden;
 }
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
@@ -206,6 +223,8 @@ footer div a {
 /* Menus in sidebar */
 .sidebar #menubar .menu {
 	margin-bottom: 29px;
+	margin-right: -9px;
+
 }
 /* Container for links in footer */
 footer .footerlinks {
@@ -236,7 +255,10 @@ footer .footerlinks {
 	position: relative;
 	top: -22px;
 	width: 100%;
-	overflow: hidden;
+	white-space: nowrap;
+	overflow-x: hidden;
+	
+
 }
 /*menu headings in sidebar */
 #menubar .menu h2 {
@@ -280,7 +302,10 @@ footer .footerlinks {
 }
 /* main content region of page */
 #mainWrapper #content .mainContent {
-	overflow: hidden;
+	white-space: nowrap;
+	overflow-x: hidden;
+	
+
 	width: 95%;
 	margin-top: 40px;
 }
@@ -407,5 +432,8 @@ header #headerLinks a {
 	text-align: center;
 	width: 100%;
 	padding-left: 0px;
+white-space: nowrap;
+	overflow-x: hidden;
+	
 }
 }
