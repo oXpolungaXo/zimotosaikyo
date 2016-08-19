@@ -27,7 +27,7 @@ var textfield = $("input[name=user]");
                     
                 //show avatar
                 $(".avatar").css({
-                    "background-image": "url('http://api.randomuser.me/0.3.2/portraits/women/35.jpg')"
+                    "background-image": "url('../img/logosample.png')"
                 });
         } 
         else {
