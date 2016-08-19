@@ -115,7 +115,9 @@ header {
 	float: left;
 	padding-left: 5%;
 	padding-right: 5%;
-	width: 22%;
+	max-width:200px;
+   height: auto;
+	
 }
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
@@ -376,12 +378,12 @@ header #headerLinks a {
 }
 /* Each product in catalog view */
 .mainContent .productRow .productInfo {
-	width: 100%;
 	display: block;
 	padding-left: 0px;
 	padding-right: 0px;
 	position: relative;
 	left: -2%;
+	
 }
 #mainWrapper footer div {
 	width: 100%;
