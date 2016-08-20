@@ -76,7 +76,7 @@ header {
 	float: left;
 	width: 80%;
 	text-align: center;
-	/* [disabled]padding-left: 5%; */
+	padding-left: 2%;
 	padding-right: 0px;
 	white-space: nowrap;
 	overflow-x: hidden;

@@ -22,6 +22,7 @@
 	width: 100%;
 	white-space: nowrap;
 	overflow-x: hidden;
+	margin-right:10px;
 }
 
 .rolesize{
@@ -52,30 +53,33 @@
 	}
 	
 	.productRow{
-	float:left;
-	margin-left:15px;
+	float: left;
+	margin-left: 0px;
 	white-space: nowrap;
 	overflow-x: hidden;
-		
 	}
 	
 	/*整列整理*/
 	.lineup{
-		float:left;
+		position:relative;
+	float: left;
 		
 	}
-/*3位以降の雑魚は小さく*/
+	
 .lineupthird{
  zoom:50%;
  
  }
  
  .bottunsage{
-	margin-top: 184px;
+	width: 100px;
+	
+	
  }
  
  .vssize{
  zoom:30%;
  margin-top:400px;
+ float:left;
  }
  
