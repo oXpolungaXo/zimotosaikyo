@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zimotosaikyo</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KTtQAOUQerjeHrFmZZ28JQy+junwYzdHMEXi9b5RZzTB9FrcaatcTDVOZyxsV8+p2+vu7hwtaZn+o6VzP8ndeA==" />
+
+    <link rel="stylesheet" media="all" href="/assets/bootstrap_and_overrides.self-b85ec57930a7e57658a355f494c8fca5e2691f1a1ed6bfd67ddfbf962e55a7ac.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/omniauth_callbacks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/scaffolds.self-86e708c7f8c7abbe0540eb8627a3f416f1a701ef6f9dc78bde06a8d5800f6f0e.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/tweet.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/upmovies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="reload" />
+<link rel="stylesheet" media="all" href="/assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1" data-turbolinks-track="reload" />
+    <script src="/javascripts/defaults.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <header>
+    <nav>
+      <!-- user_signed_in? はユーザがログインしているか調べるdeviseのHelperメソッド -->
+      <!-- current_user は現在ログインしているUserオブジェクトを返すdeviseのHelperメソッド -->
+      <!-- *_path はUserモデルを作成したときに、
+           deviseにより自動で作成されてますので、rake routesで確認できます -->
+      Logged in as <strong>s.a.t.e.3.ths@gmail.com</strong>.
+      499569831-lAZqjSlA2QYXQijpyJ5xgZtuHbB4E033kJGwPZW4 and g4qjtl1tnVN2jo02RKNbIFXgKo3qFroRCQatJpqUktq2v
+      <a href="/users/edit">プロフィール変更</a> |
+      <a rel="nofollow" data-method="delete" href="/users/sign_out">ログアウト</a>
+    </nav>
+  </header>
+
+  <body>
+    <p class="notice"></p>
+    <p class="alert"></p>
+
+    <h1>New Movie</h1>
+
+<form class="new_movie" id="new_movie" action="/movies" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="itoDR2A2l8x9AsyozJBpdTr1lQ3R+e9Yni9G4T7p6cVw6jtPV34xMu3hmbvdstYqUq52oQdPKOCEfHpFgtPiDg==" />
+
+  <div class="field">
+    <label for="movie_title">Title</label>
+    <input type="text" name="movie[title]" id="movie_title" />
+  </div>
+
+  <div class="field">
+    <label for="movie_link">Link</label>
+    <input type='radio' name='movie[link]' value='https://twitter.com/satelliteix/status/766622184248778754/video/1' /><video src='https://video.twimg.com/ext_tw_video/766622168318750720/pr/vid/320x180/6iHxRyahZHR21_PP.mp4' controls></video><br /><input type='radio' name='movie[link]' value='https://twitter.com/satelliteix/status/766612257954377728/video/1' /><video src='https://video.twimg.com/ext_tw_video/766612241793683456/pr/vid/320x180/V4C2JTX_IkiGb-Z4.mp4' controls></video><br /><input type='radio' name='movie[link]' value='http://twitter.com/satelliteix/status/766370850551410688/video/1' /><video src='https://video.twimg.com/ext_tw_video/766370833384153088/pr/vid/320x180/1C3LXIm67GEEqW8h.mp4' controls></video><br /><input type='radio' name='movie[link]' value='http://twitter.com/satelliteix/status/766302415670812673/video/1' /><video src='https://video.twimg.com/ext_tw_video/766302397715009540/pr/vid/320x180/0VU-xP86oRBWNkUh.mp4' controls></video><br /><input type='radio' name='movie[link]' value='http://twitter.com/satelliteix/status/766298521762799617/video/1' /><video src='https://video.twimg.com/ext_tw_video/766297249357803520/pr/vid/320x180/Q-HAJPlFO6jiy1Ds.mp4' controls></video><br /><input type='radio' name='movie[link]' value='http://twitter.com/satelliteix/status/765281919961489408/video/1' /><video src='https://video.twimg.com/ext_tw_video/765281911648333824/pr/vid/320x180/ena5DWCgfdE4sF_6.mp4' controls></video><br /><input type='radio' name='movie[link]' value='http://twitter.com/satelliteix/status/765280094109601792/video/1' /><video src='https://video.twimg.com/ext_tw_video/765280036916072448/pr/vid/180x320/19ErAqpNAVMjWoRr.mp4' controls></video><br /><input type='radio' name='movie[link]' value='http://twitter.com/satelliteix/status/765268856881295361/video/1' /><video src='https://video.twimg.com/ext_tw_video/765268847750361089/pr/vid/320x180/YOaO5MtUtCXaXUzP.mp4' controls></video><br />
+  </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Create Movie" data-disable-with="Create Movie" />
+  </div>
+</form>
+
+<a href="/movies">Back</a>
+
+  </body>
+</html>
+
